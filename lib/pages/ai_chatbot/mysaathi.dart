@@ -8,7 +8,6 @@ class SaathiChatScreen extends StatefulWidget {
   @override
   State<SaathiChatScreen> createState() => _SaathiChatScreenState();
 }
-
 class _SaathiChatScreenState extends State<SaathiChatScreen> {
   final TextEditingController _controller = TextEditingController();
   final ScrollController _scrollController = ScrollController();
